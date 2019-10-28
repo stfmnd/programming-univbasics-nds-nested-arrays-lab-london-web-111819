@@ -25,11 +25,9 @@ end
 
 def array_literal_matrix
   parent_array = [
-    ENNET_HOUSE,
-    ENFIELD_TENNIS_ACADEMY
+    ENNET_HOUSE.sort,
+    ENFIELD_TENNIS_ACADEMY.sort
     ]
-    
-    return parent_array.sort
 end
 
 def matrix_lookup(matrix, row, column)
